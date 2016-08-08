@@ -2,18 +2,22 @@
 <?php get_header() ?>
 
     <section>
-      <?php //echo do_shortcode('[rev_slider alias="home"]') ?>
-      <img src="<?php echo get_template_directory_uri() ?>/images/banner.jpg" alt="" class="img-responsive" />
+      <?php echo do_shortcode('[rev_slider alias="home"]') ?>
+      <!--<img src="<?php echo get_template_directory_uri() ?>/images/banner.jpg" alt="" class="img-responsive" />-->
     </section>
 
     <section class="apresentacao inner">
       <div class="container">
         <div class="row">
-          <div class="col-md-8">
-            video
+          <div class="col-md-6">
+            <div class="video-container">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/6Ia-VMGwKJ8" frameborder="0" allowfullscreen></iframe>
+            </div>
           </div>
-          <div class="col-md-4">
-            <img src="<?php echo get_template_directory_uri() ?>/images/imc.jpg" alt="" />
+          <div class="col-md-4 col-md-offset-2">
+            <a href="http://www.calculoimc.com.br/ " target="_blank">
+              <img src="<?php echo get_template_directory_uri() ?>/images/imc.jpg" alt="" />
+            </a>
           </div>
         </div>
       </div>
@@ -21,7 +25,7 @@
 
     <section class="noticia-contato inner">
       <div class="container">
-        <h3 class="titulo-noticia"> Ultimas Notícias </h3>
+        <h3 class="titulo-noticia"> Últimas Notícias </h3>
         <div class="row">
           <?php
           $argPost = array(

@@ -2,7 +2,7 @@
   <main class="interno">
     <section class="topo-titulo">
       <div class="container">
-        <h1>Blog</h1>
+        <h1>Notícias</h1>
       </div>
     </section>
     <div class="container">

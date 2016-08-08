@@ -1,10 +1,10 @@
 <section  class="mapa inner-map">
   <div class="container">
     <div class="row">
-
       <div class="col-md-5 col-md-offset-7">
         <div class="formulario-rodape">
-
+          <h3>Entre em contato</h3>
+          <?php echo do_shortcode('[contact-form-7 id="22" title="Formulário de contato 1"]') ?>
         </div>
       </div>
     </div>
@@ -25,7 +25,7 @@
       </div>
     </div>
      <div class="pull-right">
-       <a href="#" class="ass"> 4media </a>
+       <a href="http://4media.com.br/" class="ass" target="_blank"> 4media </a>
      </div>
   </div>
 </footer>
