@@ -160,6 +160,11 @@ section.inner{
   margin-bottom: 20px;
 }
 
+.valor{
+  font-size: 19px;
+  font-weight: bold;
+}
+
 /**********************************************/
 /********* video container ******************/
 .video-container {
@@ -341,4 +346,75 @@ footer label{
 .navbar-cni .navbar-nav>.active>a:hover{
   background: url('images/setinha.png') center bottom no-repeat transparent;
   color: #A42627;
+}
+
+.navbar-toggle{
+margin-top: 60px;
+}
+
+.navbar-toggle .icon-bar{
+  background-color: #A42627;
+}
+
+.btn-contato {
+  background: #A42627;
+  color: #fff;
+  border-radius: 0px !important;
+}
+
+.btn-contato:hover {
+  background: #2c769b;
+  color: #fff;
+  border-radius: 4px !important;
+  transition-duration: 1s;
+}
+
+.box-produto {
+  background: #eaeaea;
+  padding: 0px 10px;
+  margin-top: 20px;
+}
+
+.btn-home {
+  background: #2c769b;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 0px !important;
+  margin-top: 10px;
+}
+
+.btn-home:hover {
+  background: #fff;
+  color: #2c769b;
+  border: 1px solid #2c769b;
+}
+
+/***********************************/
+/******** RESPONSIVO ***************/
+@media(max-width:640px){
+  .navbar-brand img{
+    max-width: 200px;
+  }
+
+  .contato-top{
+    display: none;
+  }
+
+  .navbar-cni .navbar-nav > li > a{
+    padding-bottom: 10px;
+  }
+
+  .navbar-cni .navbar-nav>li>a:focus,
+  .navbar-cni .navbar-nav>li>a:hover{
+    background-color: #A42627;
+    color: #fff;
+  }
+
+  .navbar-cni .navbar-nav>.active>a,
+  .navbar-cni .navbar-nav>.active>a:focus,
+  .navbar-cni .navbar-nav>.active>a:hover{
+    background-color: #A42627;
+    color: #fff;
+  }
+
 }
